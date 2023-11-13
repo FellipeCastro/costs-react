@@ -13,7 +13,7 @@ function App() {
         <Link to="/">Home</Link>
         <Link to="/contact">Contato</Link>
         <Link to="/Company">Empresa</Link>
-        <Link to="/NewProject">Home</Link>
+        <Link to="/NewProject">Novo Projeto</Link>
       </div>
       <Container customClass="min_height">
         <Routes>
