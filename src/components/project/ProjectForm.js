@@ -11,17 +11,17 @@ function ProjectForm({btnText}) {
     const [categories, setCategories] = useState([])
     
     useEffect(() => {
-        fetch('http://localhost:5000/categories', {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-          },
+      fetch('http://localhost:5000/categories', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+        .then((resp) => resp.json())
+        .then((data) => {
+          setCategories(data)
         })
-          .then((resp) => resp.json())
-          .then((data) => {
-            setCategories(data)
-          })
-      }, [])
+    }, [])
 
     return (
         <form className={styles.form}>
