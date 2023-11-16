@@ -4,7 +4,6 @@ import Input from '../form/Input'
 import Select from '../form/Select'
 import SubmitButton from '../form/SubmitButton'
 import styles from './ProjectForm.module.css'
-import { useFetcher } from 'react-router-dom';
 
 function ProjectForm({btnText}) {
 
