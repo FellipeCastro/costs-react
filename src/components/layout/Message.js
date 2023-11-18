@@ -9,15 +9,17 @@ function Message({ type, msg }) {
     if (!msg) {
       setVisible(false)
       return
+    } else {
+      setVisible(true)
+
+      const timer = setTimeout(() => {
+        setVisible(false)
+      }, 3000)
+
+      return () => clearTimeout(timer)       
     }
 
-    setVisible(true)
 
-    const timer = setTimeout(() => {
-      setVisible(false)
-    }, 3000)
-
-    return () => clearTimeout(timer)
   }, [msg])
 
   return (
