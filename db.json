@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "Projeto 01",
-      "budget": "5000",
+      "name": "Projeto 001",
+      "budget": "11121",
       "category": {
         "id": "1",
         "name": "Infra"
