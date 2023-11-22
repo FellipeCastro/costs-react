@@ -28,6 +28,10 @@
     flex-wrap: wrap;
 }
 
+.service_form_container h2 {
+    color: #222;
+}
+
 .btn {
     background-color: #222;
     color: #fff;
