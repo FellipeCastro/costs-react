@@ -18,8 +18,28 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": null,
+      "services": [
+        {
+          "id": "25dd8d3d-b505-4220-a994-ae2c5d815689"
+        },
+        {
+          "cost": "1111",
+          "id": "8a1b2963-b56c-43c4-ae17-5d73df54339b"
+        },
+        {
+          "cost": "1111",
+          "id": "5d9d1309-b2db-4ee9-af92-6eaa8dc8f772",
+          "name": "qqq",
+          "description": "qqqq"
+        },
+        {
+          "name": "aaaa",
+          "cost": "111111",
+          "description": "aa",
+          "id": "2ea2ccd9-8031-4499-9bb6-58c92a58fa8f"
+        }
+      ],
       "id": 2
     },
     {
