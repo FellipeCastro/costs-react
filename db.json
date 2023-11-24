@@ -21,23 +21,34 @@
       "cost": null,
       "services": [
         {
-          "id": "25dd8d3d-b505-4220-a994-ae2c5d815689"
+          "name": "Serviço 1",
+          "cost": "100",
+          "description": "descrição qualquer",
+          "id": "400c3133-53c8-4e32-96bd-20f2f9b836ac"
         },
         {
-          "cost": "1111",
-          "id": "8a1b2963-b56c-43c4-ae17-5d73df54339b"
+          "name": "Contratar Dev",
+          "cost": "500",
+          "description": "descrição ",
+          "id": "ea0a9a37-525a-4eb1-a223-fe0db74d2852"
         },
         {
-          "cost": "1111",
-          "id": "5d9d1309-b2db-4ee9-af92-6eaa8dc8f772",
-          "name": "qqq",
-          "description": "qqqq"
+          "name": "Contratar Dev",
+          "cost": "500",
+          "description": "descrição ",
+          "id": "ea0a9a37-525a-4eb1-a223-fe0db74d2852"
         },
         {
-          "name": "aaaa",
-          "cost": "111111",
-          "description": "aa",
-          "id": "2ea2ccd9-8031-4499-9bb6-58c92a58fa8f"
+          "name": "AAAA",
+          "cost": "11111",
+          "description": "AAAAAAAAAAA",
+          "id": "ee3c0cdb-8fce-4a66-9ebf-9f86861c054a"
+        },
+        {
+          "name": "AAAA",
+          "cost": "11111",
+          "description": "AAAAAAAAAAA",
+          "id": "65742d17-9fd6-4459-b008-cf6c04675b3a"
         }
       ],
       "id": 2
