@@ -91,7 +91,31 @@ function Project() {
             .catch((err) => console.log(err))
     }
 
-    function removeService() {
+    function removeService(id, cost) {
+        const serviceUpdate = project.services.filter(
+            (service) => service.id !== id
+        )
+
+        const projectUpdated = project
+        projectUpdated.services = serviceUpdate
+        projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
+
+        fetch(`http://localhost:5000/projects/${projectUpdated.id}`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(project)
+        })
+        .then((resp) => resp.json())
+        .then((data) => {
+            setProject(projectUpdated)
+            setServices(serviceUpdate)
+            setMessage('Serviço removido com sucesso')
+            setType('succes')
+        })
+        .catch(err => console.log(err))
+
 
     }
 
