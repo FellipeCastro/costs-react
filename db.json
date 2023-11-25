@@ -21,17 +21,6 @@
       "cost": null,
       "services": [],
       "id": 2
-    },
-    {
-      "name": "Projeto 03",
-      "budget": "3000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
     }
   ],
   "categories": [
